@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>action주소로 요청을 보내는 submit과 폼을 초기화 하는 reset</title>
+  </head>
+  <body>
+    <form action="#">
+      <div>
+        <label
+          >아이디
+          <input type="text" />
+        </label>
+      </div>
+      <div>
+        <label> 비밀번호 <input type="password" /> </label>
+      </div>
+      <div>
+        <input type="image" src="login.jpg" alt="로그인 버튼" />
+        <input type="reset" value="리셋" />
+        <input type="button" value="새창 열기" onclick="window.open()" />
+        <input type="button" value="인사" onclick="alert('안녕')" />
+      </div>
+    </form>
+  </body>
+</html>

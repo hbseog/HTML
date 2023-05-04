@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>선택할 수 있는 input redio, checkbox</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>신청과목</legend>
+        <label><input type="checkbox" name="subject" value="java" />자바</label>
+        <label
+          ><input type="checkbox" name="subject" value="python" />파이썬</label
+        >
+        <label><input type="checkbox" name="subject" value="c" />c언어</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>요일</legend>
+        <label><input type="radio" name="day" value="mon" />월</label>
+        <label><input type="radio" name="day" value="tue" />화</label>
+        <label><input type="radio" name="day" value="wen" />수</label>
+      </fieldset>
+
+      <input type="submit" value="전송" />
+    </form>
+  </body>
+</html>
